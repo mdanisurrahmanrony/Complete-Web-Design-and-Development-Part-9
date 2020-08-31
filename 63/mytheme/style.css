@@ -1,0 +1,238 @@
+/*
+	Theme Name: Our WP Theme
+	Version: 1.0
+	Author: Abdul Kader
+	Author URI: http://itbari.com
+	Description: This is a wordpress theme made for learning purpose only
+	
+*/
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+html, body{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.clearfix:before, .clearfix:after{
+	display:table;
+	content:"";
+}
+.clearfix:after{
+	clear:both;
+}
+/* Main Body Structure */
+.container{
+	width:960px;
+	margin:0 auto;
+	padding:0 15px 0 15px;
+}
+
+/* Site Header */
+header.main-header{
+	border-bottom:1px solid #067092;
+	padding-top:20px;
+}
+header.main-header h1 a{
+	color:#067092;
+	text-decoration:none;
+} 
+header.main-header h1{
+	margin:0;
+}
+header.main-header h3{
+	font-style:italic;
+	margin-top:0;
+}
+
+/* Site Navigation */
+.main-header nav{
+	margin-top:30px;
+}
+.main-menu ul{
+	margin:0;
+	padding:0;
+}
+.main-menu ul:before, .main-menu ul:after{
+	content:"";
+	display:table;
+}
+.main-menu ul:after{
+	clear:both;
+}
+.main-menu ul li{
+	list-style:none;
+	float:left;
+	margin-right:10px;
+}
+.main-menu ul li a{
+	padding:10px 20px;
+	display:block;
+	text-decoration:none;
+	border:1px solid #067092;
+	border-radius: 5px 5px 0 0;
+	border-bottom:none;
+	color:#000;
+}
+.main-menu ul li a:hover{
+	background:#067092;
+	color:#fff;
+}
+/*Site Content*/
+.content_wrapper{
+	
+}
+.left_content{
+	float:left;
+	width:65%;
+	margin-right:1%;
+}
+.content_wrapper > .clear {
+    clear:both;
+    line-height:0;
+}
+
+/* Site Sidebar */
+
+.sidebar{
+	float:left;
+	width:34%;
+}
+.sidebar .sidebar_single_area{
+	padding-bottom: 5px;
+	margin-bottom: 25px;
+	border-bottom: 1px dotted red;
+	margin-left: 10px;
+}
+.sidebar .sidebar_single_area:last-of-type{
+	border-bottom: none
+}
+.sidebar .sidebar_single_area h2.wid_heading{
+	color:red;
+}
+.sidebar .sidebar_single_area ul li a{
+	text-decoration: none; 
+	display:block;
+	padding: 2px 0;
+	-webkit-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+
+.sidebar .sidebar_single_area ul li a:hover{
+	color: red;
+}
+
+
+/* Site Footer */
+.site-footer{
+	margin:10px 0;
+	border-top:1px solid #067092;
+	padding-top:10px;
+}
+.site-footer>p{
+	float:left;
+	margin:0;
+	padding:0;
+}
+.site-footer p a{
+	color:#067092;
+	text-decoration:none;
+}
+#footer_nav{
+	float:right;
+}
+#footer_nav ul{
+	margin:0;
+	padding:0;
+}
+#footer_nav ul li{
+	float:left;
+	list-style:none;
+	padding:1px 20px;
+	border-right:1px solid #ddd;
+}
+#footer_nav ul li:last-child{
+	border-right:none;
+}
+#footer_nav ul li a{
+	color:#2c7092;
+	text-decoration:none;
+}
+.post_meta{
+	border:1px solid #ddd;
+	padding: 10px;
+}
+.home_ar_wrap{
+	border-bottom: 2px solid #ddd;
+	padding-bottom: 50px;
+	margin-bottom: 50px;
+}
+.home_ar_wrap:last-of-type{
+	border-bottom: none;
+	padding-bottom: 0;
+	margin-bottom: 50px;
+}
+
+div.featured_image img.wp-post-image{
+	width:100%;
+	height:auto;
+	margin-bottom: 10px;
+}
+
+div.b_f_area{
+	margin: 20px;
+    margin-left: 0;
+    border: 1px dotted green;
+    padding: 10px;
+}
+div.b_f_area div.b_f_s_wrap{
+	float:left;
+	width:30%;
+	margin:0 1%;
+	border-right:1px dotted green;
+	height: 18em;
+}
+div.b_f_area div.b_f_s_wrap:last-of-type{
+	
+	margin-right:0;
+	border-right:0;
+}
+div.b_f_area div.b_f_s_wrap ul li{
+	float:none;
+}
+div.b_f_area div.b_f_s_wrap ul li a{
+	text-decoration: none;
+}
+div.b_f_area div.b_f_s_wrap h2.red{
+	color:red;
+}
+div.b_f_area div.b_f_s_wrap h2.green{
+	color:green;
+}div.b_f_area div.b_f_s_wrap h2.orange{
+	color:orange;
+}
+
+a.readmore{
+	color: red;
+	font-weight: bold;
+	text-decoration: none;
+}
+h2.archive_heding{
+	color:red;
+	font-size: 2em;
+	margin: 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+	Tutorial By- http://ITBari.com, All Rights Reserved
+*/
